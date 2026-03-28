@@ -85,8 +85,20 @@ RegisterNumber:
 ```
 
 ## Output:
+```
+Name: Roopika m
+Reg. No: 25008774
+Linear Regression:
+MSE= 16471505.900042146
+R2-Score= 0.7913520781370976
+
+Polynomial Regression:
+MSE: 15247661.89
+R^2: 0.81
+MAE:2694.05
+```
 ![simple linear regression model for predicting the marks scored](sam.png)
-<img width="713" height="545" alt="image" src="https://github.com/user-attachments/assets/7dacd5f3-e003-4089-b47b-02c68926f130" />
+<img width="868" height="468" alt="image" src="https://github.com/user-attachments/assets/393a47ed-ae18-4dfe-8a6f-cc3d492fdbc5" />
 
 
 Thus, the program to implement Linear and Polynomial Regression models for predicting car prices was written and verified using Python programming.

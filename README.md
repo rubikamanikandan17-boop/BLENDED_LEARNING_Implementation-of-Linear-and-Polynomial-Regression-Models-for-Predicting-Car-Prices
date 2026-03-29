@@ -9,18 +9,22 @@ To write a program to predict car prices using Linear Regression and Polynomial 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+```
+Load the dataset and separate input features (X) and target variable (car price y).
+Split the dataset into training and testing sets.
+Train Linear Regression and Polynomial Regression models using the training data.
+Predict car prices using both models and compare their performance. 
+```
 ## Program:
 ```
 /*
  Program to implement linear regression model for predicting car prices and test assumptions.
-Developed by: Rubika
+Developed by: Roopika m
 RegisterNumber: 212225040348
 */
+```
+
+```
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -38,8 +42,8 @@ model= LinearRegression()
 model.fit(X_train,y_train)
 LinearRegression
 LinearRegression()
-print("Name:Sahana")
-print("Reg. No:25004522")
+print("Name:Roopika m")
+print("Reg. No:25008774")
 
 print("\n=== Cross-Validation ===")
 cv_scores = cross_val_score(model, X, y, cv=5)
@@ -100,5 +104,6 @@ MAE:2694.05
 ![simple linear regression model for predicting the marks scored](sam.png)
 <img width="868" height="468" alt="image" src="https://github.com/user-attachments/assets/393a47ed-ae18-4dfe-8a6f-cc3d492fdbc5" />
 
+## Result:
 
 Thus, the program to implement Linear and Polynomial Regression models for predicting car prices was written and verified using Python programming.
